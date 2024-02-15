@@ -1,0 +1,54 @@
+EMPLOYEE RECORD SYSTEM
+
+AIM:
+To write an algorithm -, description ,class diagram , concepts used in the program and program to perform the “EMPLOYEE RECORD SYSTEM PROJECT IN C++ “  using inheritance and the oops concepts.
+ALGORITHM:
+Step 1: Start the program.
+Step 2: Declare class ‘EMPDETAILS’ to get the details of the employee working in the company.
+Step 3: Declare the data members and member functions to print the basic details.
+Step 4: Declare the ‘CREATEREC’ class to create the details of the employee.
+Step 5: In class ‘DISPEMP’ display the details of the employee using inheritance.
+Step 6: Create a class “SEARCHEMP” to search the employee and display their details. Then check the searched employee is regular or partime worker.
+If(hours>6)
+Print as Regular Worker.
+Else
+Print as Partime Worker.
+Step 7: Create the class ”MODIFYEMP” to modify the details of the employee and display the modified information of the employee.
+Step 8: In main function by using switch case Call every function in do loop ,by using ‘choice’ variable .
+Step 9: In while loop checkchoice!=5 to exit from program.
+Step10:Stop the program.
+DESCRIPTION:
+EMPLOYEE RECORD SYSTEM:
+In this project Employee record system, It is a concept of creating a record for employee and to modify the working time ,salary etc.., . Here include various data member and member function to perform the record system such as:
+1.	Create the record.
+2.	Display the employee details. 3.Search the employee datails.
+4.To Modify the details of the employee.
+
+
+First, In the class EMPDETAILS get the basic detals of the employee such as name, idno , age , gender etc…
+In the class CREATEREC creating the particular employee details and allocating the work for the day.
+Then in class DISPEMP get the name of the employee from user and displaying the record of that employee in a manner
+In the class SEARCHEMP get the idno from the user and search the employee using the idno , if the employee found then check the employee is regular or partime worker by hours of working
+( if working hours is greater than 6) then the worker is regular worker or he is partime worker or if the employee is not found then print “Employee not found”.
+In class MODIFYEMP get the information from the  user  and modify the employee’s details by changing their hours of working and their idno and salary and then finally display the modified details of the Employee.
+In main function by using switch case call every function to execute and end the program.
+ 
+CONCEPTS USED IN EMPLOYEE RECORD SYSTEM PROGRAM:
+1.	HIERARCHIAL INHERITANCE:
+Hierarchial Inheritance is a type of inheritance where many subclasses inherit from single class .
+2.	CLASSES AND OBJECT:
+In C++ programming, a Class is a fundamental block of a program that has its own set of methods and variables. You can access these methods and variables by creating an object or the instance of the class.
+3.	STATIC MEMBER DATA:
+Static data members are class members  that  are  declared  using the static keyword. There is only one copy of the static  data member in the class, even if there are many class objects. This is because all the objects share the static data member.
+4.	CONSTRUCTOR:
+A constructor in C++ is a special 'MEMBER FUNCTION' having the same name as that of its class which is used to initialize some valid values to the data members of an object. It is executed automatically whenever an object of a class is created.
+5.	AUTO STORAGE CLASS:
+The auto keyword is a simple way to declare a variable that has a complicated type. For example, you can use auto to declare a variable where the initialization expression involves templates, pointers to functions, or pointers to members.
+
+
+4.INLINE FUNCTION:
+Inline function in C++ is an enhancement feature that improves the execution time and speed of the program.
+ 
+7.SCOPE RESOLUTION:
+The Scope Resolution Operator is also called as simpler terms, the double colon, is a token that allows access to static, constant, and overridden properties or methods of a class. When referencing these items from outside the class definition, use the name of the class.
+
